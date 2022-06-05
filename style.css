@@ -139,7 +139,7 @@ img {
   text-decoration: none;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 575px) {
   .hero_index_main {
     flex-direction: column;
     display: block;
@@ -169,9 +169,11 @@ img {
   .down_button_hc,
   .down_button_ts {
     border-radius: 0 0 20px 20px;
+    width: 100%;
+    padding: 15px 20px;
   }
 }
-@media (max-width: 700px) {
+@media (max-width: 900px) {
   .hero_index_main {
     flex-direction: column;
   }
@@ -180,10 +182,163 @@ img {
   .down_button_ts {
     border-radius: 0 0 20px 20px;
   }
+  .reccreational_img,
+  .competitive_img,
+  .team_img {
+    width: 100%;
+  }
+  .reccreational_img img {
+    width: 100%;
+    border-radius: 20px;
+  }
+  .competitive_img img {
+    width: 100%;
+    border-radius: 20px;
+  }
+  .team_img img {
+    width: 100%;
+    border-radius: 20px;
+  }
+  .hero_reccreational,
+  .hero_competitive,
+  .hero_team_stories {
+    margin-bottom: 20px;
+  }
 }
 
 /* Hero design ends ****************/
+/* products design start *************************/
 
+.products {
+  background-color: #f8f8f8;
+  padding: 100px 0px;
+}
+.products_heading h2 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 10px;
+  font-family: sans-serif;
+}
+
+.products_main_all {
+  display: flex;
+  justify-content: space-around;
+}
+
+.fin_one {
+  /* border: 1px solid red; */
+  flex-basis: 23%;
+  height: auto;
+  background-color: white;
+  padding: 10px;
+  border-radius: 20px;
+  height: auto;
+}
+
+.picture {
+  margin-bottom: 80px;
+  height: auto;
+}
+
+.product_name h4 {
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 600;
+  letter-spacing: 0;
+  font-family: Work Sans, sans-serif;
+  color: #151517;
+}
+
+.price_tag {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.was_price {
+  margin-right: 130px;
+  text-decoration: line-through;
+}
+
+.bag_icon {
+  background-color: #00509d;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.goggle_part {
+  flex-basis: 23%;
+  border-radius: 20px;
+  background-color: white;
+  padding: 10px;
+  height: auto;
+}
+
+.fin_two {
+  flex-basis: 23%;
+  border-radius: 20px;
+  background-color: white;
+  padding: 10px;
+  height: auto;
+}
+
+.bungee {
+  flex-basis: 23%;
+  border-radius: 20px;
+  background-color: white;
+  padding: 10px;
+  height: auto;
+}
+.button {
+  text-align: center;
+  margin-top: 100px;
+}
+.button a {
+  background-color: #00509d;
+  color: white;
+  padding: 19px 45px;
+  border-radius: 15px;
+  border: none;
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-weight: 700;
+}
+.button a:hover {
+  background-color: #00246d;
+}
+
+@media (max-width: 775px) {
+  .products_main_all {
+    flex-direction: column;
+  }
+  .button a {
+    display: block;
+    font-size: 14px;
+    line-height: 19px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 10px;
+  }
+  .was_price {
+    margin-right: 180px;
+  }
+  .fin_one,
+  .fin_two,
+  .bungee,
+  .goggle_part {
+    margin-bottom: 20px;
+  }
+}
+
+/* products design ends *************************/
 /* swim shop design start ***************/
 
 .swim_shop_all {
@@ -438,6 +593,86 @@ img {
 }
 
 /* brands design ends *********************/
+
+/* descriptions sections start */
+
+.descriptions_wall {
+  padding: 100px 10px;
+  background-color: #ffc600;
+  margin-top: 60px;
+}
+.heading_descriptions {
+  text-align: center;
+  max-width: 521px;
+  margin: 0 auto 60px;
+}
+
+.heading {
+  margin-bottom: 20px;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 50px;
+  letter-spacing: -1px;
+  font-family: sans-serif;
+  align-items: center;
+  display: block;
+}
+
+.main_descriptions_sides {
+  display: flex;
+  justify-content: space-around;
+}
+
+.left_side_descriptions {
+  /* border: 1px solid red; */
+  flex-basis: 30%;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.para_one {
+  font-size: 18px;
+  line-height: 30px;
+  color: #151517;
+  margin: 35px 0 40px;
+  padding: 20px;
+}
+
+.name {
+  padding: 20px;
+  font-weight: 600;
+}
+.name_descriptions {
+  padding: 20px;
+  padding-top: 0px;
+}
+
+.right_side_descriptions {
+  /* border: 1px solid red; */
+  flex-basis: 30%;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.pera_two {
+  font-size: 18px;
+  line-height: 30px;
+  color: #151517;
+  margin: 35px 0 40px;
+  padding: 20px;
+}
+
+@media (max-width: 775px) {
+  .main_descriptions_sides {
+    flex-direction: column;
+  }
+  .right_side_descriptions {
+    margin-top: 30px;
+  }
+}
+/* descriptions sections ends */
 
 /* newslettar design start *******************/
 
